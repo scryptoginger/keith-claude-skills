@@ -1,25 +1,15 @@
 ---
 name: prospect-brief
-description: Use this skill whenever someone needs to research a company before reaching out to them — for sales prospecting, business development, partnership outreach, cold email prep, or any "I need to know enough about this company in 90 seconds to write something that doesn't sound templated" situation. Trigger on phrases like "research this company," "prospect brief," "background on," "what should I know about," or any time a company name or website is provided alongside an outreach goal. This skill produces a structured brief with company snapshot, recent signals, conversation hooks, and a draft personalized intro line.
+description: Use this skill whenever someone needs to research a company before reaching out to them — for sales prospecting, business development, partnership outreach, cold email prep, or any "I need to know enough about this company in 90 seconds to write something that doesn't sound templated" situation. Trigger on phrases like "research this company," "prospect brief," "background on," "what should I know about," or any time a company name or website is provided alongside an outreach goal. Not for product questions, financial analysis or one-line factual lookups. This skill produces a structured brief with company snapshot, recent signals, conversation hooks, and a draft personalized intro line.
 ---
 
 # Prospect Brief
 
 This skill helps a salesperson, BD person, or founder turn a company name or URL into a short, useful prospect brief in under two minutes. The goal is not exhaustive research — it's *enough* research to write a personalized outreach message that lands.
 
-## When to use this skill
+## Inputs Contract
 
-Use when:
-- A user provides a company name or website and asks for research, background, a brief, or outreach prep
-- A user says they're about to send a cold email, intro, or pitch and needs context
-- A user asks "what should I know about [Company]" in any phrasing
-- A user is building a prospect list and needs a quick read on each entry
-
-Do NOT use when:
-- The user wants deep financial analysis (use a financial research tool)
-- The user wants competitive intelligence on their own company (different scope)
-- The user wants a one-line answer about a company (just answer directly)
-- The user is asking about a specific product or feature (not a prospecting use case)
+At minimum, the input required is Company Name OR URL, AND an outreach goal. If this is missing, request from the User that they provide at least these pieces of information. If the information is not given, or unavailable, proceed with what _is_ available and provide notice to User of potential degraded output quality due to lack of sufficient input.
 
 ## What you produce
 
@@ -49,12 +39,7 @@ Things you'd actually mention in a first message. These are the bridges between 
 - Phrased as something you could naturally drop into a sentence
 
 ### 4. Draft intro line (1–2 sentences)
-A single, personalized opening sentence the user can drop into a cold email or LinkedIn message. It must:
-- Reference at least one specific signal or hook by name
-- Sound like a human wrote it, not a template
-- NOT start with "I hope this finds you well" or any variant
-- NOT start with "I came across your company" or any variant
-- Be under 40 words
+A single, personalized opening sentence the user can drop into a cold email or LinkedIn message. It needs to sound human as though the Sender spent meaningful time and effort thinking about this company before crafting the response, but short and to the point. The more human, the better. It can't be canned or generic. 
 
 ### 5. Confidence and gaps
 - **Confidence level**: high / medium / low
