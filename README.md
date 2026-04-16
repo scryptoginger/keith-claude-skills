@@ -7,7 +7,7 @@ A small library of [Claude Skills](https://docs.claude.com/en/docs/agents-and-to
 | Skill | Status | What it does |
 |---|---|---|
 | [`prospect-brief`](skills/prospect-brief/) | ✅ Shipped | Turns a company name + outreach goal into a structured brief: snapshot, recent signals, conversation hooks, and a draft personalized intro line. |
-| `merlin-log-triage` | ✅ Shipped | Takes a log excerpt from a multi-agent forex trading bot and produces a structured "what happened / what looks off" report and can offer suggestions for improvement. |
+| [`merlin-log-triage`](skills/merlin-log-triage) | ✅ Shipped | Takes a log excerpt from a multi-agent forex trading bot and produces a structured "what happened / what looks off" report and can offer suggestions for improvement. |
 | `task-file-generator` | 🚧 In progress | Turns a 1–3 sentence idea into a multi-phase task file that Claude Code can execute autonomously. |
 
 ## Why composable Skills
