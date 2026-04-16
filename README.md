@@ -26,7 +26,7 @@ The Skill will read its own instructions and follow them. See [`skills/prospect-
 
 ## Background
 
-These Skills are part of a broader portfolio of applied AI work, including [MERLIN](https://github.com/scryptoginger/merlin_trading) (multi-agent forex trading bot), VIGIL (its crypto counterpart, running in an isolated VM), and Pantry Forge (a household inventory app built by a Discord-driven Claude Code dispatcher). All run on a single Claude Max subscription, no per-token API billing.
+These Skills are part of a broader portfolio of applied AI work, including MERLIN (multi-agent forex trading bot (private repo)), VIGIL (its crypto counterpart, running in an isolated VM (also private)), and Pantry Forge (a household inventory app built by a Discord-driven Claude Code dispatcher (currently private and purpose-built for family use only, but I may provide a URL via DM by request, depends on who's asking ;) )). All run on a single Claude Max subscription, no per-token API billing.
 
 ## Contact
 
