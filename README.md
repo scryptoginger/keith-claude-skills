@@ -6,9 +6,11 @@ A small library of [Claude Skills](https://docs.claude.com/en/docs/agents-and-to
 
 | Skill | Status | What it does |
 |---|---|---|
-| [`prospect-brief`](skills/prospect-brief/) | ✅ Shipped | Turns a company name + outreach goal into a structured brief: snapshot, recent signals, conversation hooks, and a draft personalized intro line. |
+| [`childrens-book-concept-developer`](skills/childrens-book-concept-developer) | ✅ Shipped | Aids an author in exploring an idea or concept for a children's book, socratically. |
 | [`merlin-log-triage`](skills/merlin-log-triage) | ✅ Shipped | Takes a log excerpt from a multi-agent forex trading bot and produces a structured "what happened / what looks off" report and can offer suggestions for improvement. |
-| `task-file-generator` | 🚧 In progress | Turns a 1–3 sentence idea into a multi-phase task file that Claude Code can execute autonomously. |
+| [`prospect-brief`](skills/prospect-brief/) | ✅ Shipped | Turns a company name + outreach goal into a structured brief: snapshot, recent signals, conversation hooks, and a draft personalized intro line. |
+| `task-file-generator`(skills/task-file-generator) | ✅ Shipped | Turns a 1–3 sentence idea into a multi-phase task file that Claude Code can execute autonomously. |
+
 
 ## Why composable Skills
 
@@ -26,8 +28,9 @@ The Skill will read its own instructions and follow them. See [`skills/prospect-
 
 ## Background
 
-These Skills are part of a broader portfolio of applied AI work, including MERLIN (multi-agent forex trading bot (private repo)), VIGIL (its crypto counterpart, running in an isolated VM (also private)), and Pantry Forge (a household inventory app built by a Discord-driven Claude Code dispatcher (currently private and purpose-built for family use only, but I may provide a URL via DM by request, depends on who's asking ;) )). All run on a single Claude Max subscription, no per-token API billing.
+These Skills are part of a broader portfolio of applied AI work, including MERLIN (multi-agent forex trading bot (private repo)), VIGIL (its crypto counterpart, running in an isolated VM (also private)), and Pantry Forge (a household inventory app built by a Discord-driven Claude Code dispatcher (currently private and purpose-built for family use only, but I may provide a URL via DM by request, depends on who's asking ;) )).  
+All run on a single Claude Max subscription, no per-token API billing.
 
 ## Contact
 
-[keithlutes.com](https://keithlutes.com) · [GitHub](https://github.com/scryptoginger)
+[keithlutes.com](https://keithlutes.com) · [GitHub](https://github.com/scryptoginger) · keithlutes@gmail.com
