@@ -6,7 +6,7 @@ A small library of [Claude Skills](https://docs.claude.com/en/docs/agents-and-to
 
 | Skill | Status | What it does |
 |---|---|---|
-| [`childrens-book-concept-developer`](skills/childrens-book-concept-developer) | ✅ Shipped | Aids an author in exploring an idea or concept for a children's book, socratically. |
+| [`childrens-book-concept-coach`](skills/childrens-book-concept-coach) | ✅ Shipped | Aids an author in exploring an idea or concept for a children's book, socratically. |
 | [`merlin-log-triage`](skills/merlin-log-triage) | ✅ Shipped | Takes a log excerpt from a multi-agent forex trading bot and produces a structured "what happened / what looks off" report and can offer suggestions for improvement. |
 | [`prospect-brief`](skills/prospect-brief/) | ✅ Shipped | Turns a company name + outreach goal into a structured brief: snapshot, recent signals, conversation hooks, and a draft personalized intro line. |
 | [`task-file-generator`](skills/task-file-generator) | ✅ Shipped | Turns a 1–3 sentence idea into a multi-phase task file that Claude Code can execute autonomously. |
